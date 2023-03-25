@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+#principalaba{
+    display: flex;
+    box-shadow: 0px 3px 1px black, 0px 4.5px 1px #FA110C;
+    width: 100vw;
+    /* padding-bottom: 2px; */
+}
+
+#logoheader{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.295);
+}
+
+nav{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100vw;
+}
+
+nav > p{
+    background-color: #FA110C;
+    color: white;
+    padding: 8px;
+    box-shadow: 0px 1.2px 3px rgb(114, 0, 0);
+    border-radius: 5px;
+}
