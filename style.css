@@ -4,7 +4,7 @@
 
 html, body{width: 100vw; height: 97vh;}
 
-header{ width: 100%; border: 1px solid black; position: relative;}
+header{width: 100%; border: 1px solid black; position: relative;}
 
 
 #principalaba{
@@ -26,8 +26,10 @@ header{ width: 100%; border: 1px solid black; position: relative;}
     width: 300px;
     border-bottom: 3px solid rgba(255, 0, 0, 0.819);
     color: black;
-    list-style: none;
+    
 }
+
+.NavAncor{text-decoration: none; color: black; }
 
 ul{
     display: flex;
@@ -37,10 +39,16 @@ ul{
     margin-top: 35px;
 }
 
+ul li{list-style: none;}
+
 .material-symbols-outlined{margin-right: 35px; font-size: 1.3rem}
 
 #menu{
-    
-    background: rgb(242, 172, 172);
+    transition: all .35s ease-in-out;
 }
+
+#menu:active{
+    transform: rotate(270deg)
+}
+
 
