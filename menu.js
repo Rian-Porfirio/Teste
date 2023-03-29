@@ -1,9 +1,11 @@
 function menuShow(){
-    let menuMobile = document.querySelector('.nav');
-    if (menuMobile.classList.contains('open')) {
-        menuMobile.classList.remove('open');
-        document.querySelector('.material-symbols-outlined').src = "assets/img/menu_white_36dp.svg";
-    } else {
-            menuMobile.classList.add('open');
-    }
+    const menuMobile = document.querySelectorAll('.nav');
+    menuMobile.forEach(element => {
+        console.log(element)
+        if (element.classList.contains('open')) {
+            element.classList.remove('open');
+        } else {
+                element.classList.add('open');
+        }
+    });
 }
